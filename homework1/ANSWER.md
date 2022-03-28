@@ -71,7 +71,7 @@ float useShadowMap(sampler2D shadowMap, vec4 shadowCoord)
 
 效果：
 
-![shadow mappings](.\img\shadow map.png)
+![shadow mappings](https://github.com/zionFisher/GAMES202-Homework-With-Answers/blob/main/homework1/img/shadow%20map.png)
 
 
 
@@ -130,7 +130,7 @@ float PCF(sampler2D shadowMap, vec4 shadowCoord, floatfilterSize)
 
 效果：
 
-![PCF](.\img\PCF.png)
+![PCF](https://github.com/zionFisher/GAMES202-Homework-With-Answers/blob/main/homework1/img/PCF.png)
 
 可以更改 filterSize 参数以获得不同效果，filterSize 越大，阴影越模糊。
 
@@ -211,8 +211,8 @@ float PCSS(sampler2D shadowMap, vec4 shadowCoord)
 }
 ```
 效果：
-![PCSS](.\img\PCSS.png)
+![PCSS](https://github.com/zionFisher/GAMES202-Homework-With-Answers/blob/main/homework1/img/PCSS.png)
 
 可以将 NUM_SAMPLES 取更大值获得更好的效果。
 NUM_SAMPLES = 100 时：
-![PCSS 100](.\img\PCSS100.png)
+![PCSS 100](https://github.com/zionFisher/GAMES202-Homework-With-Answers/blob/main/homework1/img/PCSS100.png)
